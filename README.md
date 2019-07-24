@@ -19,7 +19,7 @@ SV2TTS is a three-stage deep learning framework that allows to create a numerica
 |[1710.10467](https://arxiv.org/pdf/1710.10467.pdf) | GE2E (encoder)| Generalized End-To-End Loss for Speaker Verification | This repo |
 
 ## News
-**06/07/19:** Need to run on a remote server within a docker container? See [here](https://sean.lane.sh/posts/2019/07/Running-the-Real-Time-Voice-Cloning-project-in-Docker/).
+**06/07/19:** Need to run within a docker container on a remote server? See [here](https://sean.lane.sh/posts/2019/07/Running-the-Real-Time-Voice-Cloning-project-in-Docker/).
 
 **25/06/19:** Experimental support for low-memory GPUs (~2gb) added for the synthesizer. Pass `--low_mem` to `demo_cli.py` or `demo_toolbox.py` to enable it. It adds a big overhead, so it's not recommended if you have enough VRAM.
 
@@ -30,7 +30,7 @@ You will need the following whether you plan to use the toolbox only or to retra
 
 **Python 3.7**. Python 3.6 might work too, but I wouldn't go lower because I make extensive use of pathlib.
 
-Run `pip install -r requirements.txt` to install the necessary packages. Additionally you will need [PyTorch](https://pytorch.org/get-started/locally/).
+Run `pip install -r requirements.txt` to install the necessary packages. Additionally you will need [PyTorch](https://pytorch.org/get-started/locally/) (>=1.0.1).
 
 A GPU is mandatory, but you don't necessarily need a high tier GPU if you only want to use the toolbox.
 
